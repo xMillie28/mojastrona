@@ -1,0 +1,111 @@
+* {
+
+  font-family: "helvetica", sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0e6ef;
+}
+header {
+  border: 5px inset #f0a6ca;
+  position: sticky;
+  top: 0;
+  background: #ffc4e0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+header h1{
+  font-family: "helvetica", sans-serif;
+  text-align: center;
+  color: #9c89b8;
+  padding: 10px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  background: transparent;
+  margin-bottom: 10px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #ffc4e0;
+  padding: 2px 0;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  background-color: #ffc4e0;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  color: #9c89b8;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+  background-color: #ffc4e0;
+  border-radius: 8px;
+}
+
+nav ul li a:hover {
+  color: #7da9f0;
+  text-decoration: underline;
+  background-color: #dadfe8;
+}
+.intro h2{
+  text-align: center;
+  padding: 40px;
+  text-underline-offset: 7px;
+  color: #de85b0;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+  text-decoration: underline wavy 2px;
+  font-size: 30px;
+}
+.intro p{
+  text-align: center;
+  color: #afa4db;
+  text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+
+}
+.columns{
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  padding:60px;
+}
+.column{
+  flex: 1;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  color: #de85b0;
+  text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.4);
+}
+.column img{
+   width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.quote{
+  text-align: center;
+  color: #9c89b8;
+  text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.4);
+  font-size: 30px;
+  border: 10px ridge #F0A6CA;
+  border-radius: 40px;
+  padding: 20px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+footer{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 6px;
+  color: #9c89b8;
+  text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.7);
+}
